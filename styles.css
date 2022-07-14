@@ -4,9 +4,9 @@ body {
 }
 
 .wrapper {
-    width: 300px;
-    height: 300px;
-    margin: 20px; 
+    width: 250px;
+    height: 250px;
+    margin: 10px; 
     position: relative;
     justify-content: left;
     align-content: space-between;
@@ -17,9 +17,9 @@ body {
     position: relative;
 } 
 img{
-    width:200px;
-    height:200px;
-    margin: 10px; 
+    width:120px;
+    height:120px;
+    margin: 4px; 
     object-fit: contain;
 }
 .image {
