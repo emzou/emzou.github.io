@@ -54,4 +54,5 @@ img{
     gap: 1.7em;  
     background-color: white; 
     margin: 20px; 
+    border: 2px solid lilac; 
  }
