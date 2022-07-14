@@ -10,7 +10,7 @@ body {
     position: relative;
     justify-content: left;
     align-content: space-between;
-    background-color: yellow; 
+    background-color: white; 
 }
 
 .content {
@@ -30,7 +30,6 @@ img{
     margin:5px; 
     float:left;
     font-family: "Gill Sans", sans-serif;
-    border: 1px solid green;
 }
 
 .name {
@@ -38,6 +37,8 @@ img{
        float: left; 
        font-size: 1.4em; 
        font-family: "Gill Sans", sans-serif;
+       border: 1px solid #dbceda;
+       color: #635d63; 
 }
 
 .header {
@@ -54,5 +55,5 @@ img{
     gap: 1.7em;  
     background-color: white; 
     margin: 20px; 
-    border: 2px solid lilac; 
+    border: 2px solid #dbceda; 
  }
