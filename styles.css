@@ -4,9 +4,9 @@ body {
 }
 
 .wrapper {
-    width: 50%;
-    height: 50%;
-    margin: 2%;
+    width: 80%;
+    height: 80%;
+    margin: 0.5%;
     position: relative;
     justify-content: left;
     align-content: space-between;
@@ -30,6 +30,7 @@ img{
     margin:2px; 
     float:left;
     font-family: "Monaco", monospace;
+    font-size: 40%;
 }
 
 .name {
@@ -39,6 +40,7 @@ img{
        font-family: "Monaco", monospace;
        color: #635d63; 
        font weight: bold; 
+       font size: 75%;
 }
 
 .header {
