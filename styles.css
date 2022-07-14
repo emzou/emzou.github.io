@@ -51,9 +51,9 @@ img{
 .grid-container {
     display: grid; 
     grid-template-columns: auto auto auto;  
-    justify-content: space-evenly;
-    gap: 1.2em;  
+    justify-content: space-evenly; 
     background-color: white;  
-    width:90%; 
+    margin-left: 2%;
+    margin-right: 2%;
     border: 2px solid #dbceda; 
  }
