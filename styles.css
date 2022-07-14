@@ -19,6 +19,7 @@ body {
 img{
     width:200px;
     height:200px;
+    padding: 10px; 
     object-fit: contain;
 }
 .image {
@@ -26,13 +27,14 @@ img{
     float:left;
 }
 .text {
-    margin: 5px; 
+    margin:5px; 
     float:left;
     font-family: "Gill Sans", sans-serif;
+    border: 1px solid green;
 }
 
 .name {
-       margin: 10px; 
+       margin:5px; 
        float: left; 
        font-size: 1.4em; 
        font-family: "Gill Sans", sans-serif;
@@ -49,7 +51,7 @@ img{
     display: grid; 
     grid-template-columns: auto auto auto;  
     justify-content: space-evenly;
-    gap: 2em;  
+    gap: 1.7em;  
     background-color: white; 
-    padding: 10px; 
+    margin: 20px; 
  }
