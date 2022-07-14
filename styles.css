@@ -4,7 +4,12 @@ body {
 }
 
 .wrapper {
+    width: 500px;
+    height: 500px;
     position: relative;
+    justify-content: left;
+    align-content: space-between;
+    background-color: #f7f0dc; 
 }
 
 .content {
