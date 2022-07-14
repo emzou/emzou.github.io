@@ -39,6 +39,7 @@ img{
        font-family: "Gill Sans", sans-serif;
        border: 1px solid #dbceda;
        color: #635d63; 
+       font weight: bold; 
 }
 
 .header {
