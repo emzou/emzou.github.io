@@ -38,32 +38,16 @@ img{
 }
 
 .header {
+    border-style: solid, purple; 
     margin:16px 10px 0 0;
     font-size: 2em;
     font-family: "Gill Sans", sans-serif;
     padding: 20px; 
-}
-
-.module {
-    max-width: 500px;
-    background-color: white; 
-    color: grey; 
-    border: 2px; 
-    margin: 20px; 
-    padding: 20px; 
-}
-
-.flex-container {
-    display: flex; 
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-content: space-between;
-    background-color: white; 
-}    
+} 
 .grid-container {
     display: grid; 
     grid-template-columns: auto auto auto;  
     justify-content: space-evenly;
     gap: 2em;  
+    background-color: white; 
  }
