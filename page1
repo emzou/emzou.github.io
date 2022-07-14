@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<link rel= "styles.css" href= "styles.css">
+</head>
+<body> 
+
+<h3> Program Coordinators </h3> 
+<div class= "flex-container"> </div>
+    <div class= "module"> 
+    <h2> Yaurie Hwang </h2>
+    <p> Yaurie is a third-year student studying Computer Science </p>
+    </div>
+
+    <div class= "flex-container"> </div>
+    <div class= "module"> 
+    <h2> Yaurie Hwang </h2>
+    <p> Yaurie is a third-year student studying Computer Science </p>
+    </div>
+
+    <div class= "flex-container"> </div>
+    <div class= "module"> 
+    <h2> Yaurie Hwang </h2>
+    <p> Yaurie is a third-year student studying Computer Science </p>
+    </div>
+
+    <div class= "flex-container"> </div>
+    <div class= "module"> 
+    <h2> Yaurie Hwang </h2>
+    <p> Yaurie is a third-year student studying Computer Science </p>
+    </div>
+</body>
+</html>
