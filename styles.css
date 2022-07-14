@@ -1,5 +1,6 @@
 body {
     background-color: white 
+    font-family: "Gill Sans", sans-serif;
 }
 
 .wrapper {
@@ -21,6 +22,7 @@ img{
 .text {
     margin:16px 10px 0 0;
     float:right;
+    font-family: "Gill Sans", sans-serif;
 }
 .module {
     max-width: 500px;
