@@ -5,9 +5,8 @@ body {
 
 .wrapper {
     position: relative;
-    height:50px;
-    border: 1px solid #f15a27;
 }
+
 .content {
     position: relative;
 } 
