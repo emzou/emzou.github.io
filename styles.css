@@ -23,6 +23,13 @@ img{
     float:right;
     font-family: "Gill Sans", sans-serif;
 }
+
+.name {
+       margin 16px 10px 0 0; 
+       font-size: larger 
+       font-family: "Gill Sans," sans-serif;
+}
+
 .header {
     margin:16px 10px 0 0;
     font-size: larger
