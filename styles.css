@@ -1,6 +1,6 @@
 body {
     background-color: white 
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Monaco", monospace;
 }
 
 .wrapper {
@@ -29,14 +29,14 @@ img{
 .text {
     margin:5px; 
     float:left;
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Monaco", monospace;
 }
 
 .name {
        margin:5px; 
        float: left; 
        font-size: 1.4em; 
-       font-family: "Gill Sans", sans-serif;
+       font-family: "Monaco", monospace;
        border: 1px solid #dbceda;
        color: #635d63; 
        font weight: bold; 
@@ -46,7 +46,7 @@ img{
     border: 2px solid purple; 
     margin:16px 10px 0 0;
     font-size: 2em;
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Monaco", monospace;
     padding: 20px; 
 } 
 .grid-container {
