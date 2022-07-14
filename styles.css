@@ -25,20 +25,20 @@ img{
     float:left;
 }
 .text {
-    margin:24px 10px 0 0;
+    margin: 5px; 
     float:left;
     font-family: "Gill Sans", sans-serif;
 }
 
 .name {
-       margin: 16px 10px 0 0; 
+       margin: 10px; 
        float: left; 
        font-size: 1.4em; 
        font-family: "Gill Sans", sans-serif;
 }
 
 .header {
-    border-style: solid, purple; 
+    border: 2px solid purple; 
     margin:16px 10px 0 0;
     font-size: 2em;
     font-family: "Gill Sans", sans-serif;
