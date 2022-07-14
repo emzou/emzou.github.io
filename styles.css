@@ -9,15 +9,15 @@ body {
     position: relative;
     justify-content: left;
     align-content: space-between;
-    background-color: #f7f0dc; 
+    background-color: white; 
 }
 
 .content {
     position: relative;
 } 
 img{
-    width:100px;
-    height:100px;
+    width:200px;
+    height:200px;
     object-fit: contain;
 }
 .image {
@@ -25,7 +25,7 @@ img{
     float:left;
 }
 .text {
-    margin:16px 10px 0 0;
+    margin:24px 10px 0 0;
     float:right;
     font-family: "Gill Sans", sans-serif;
 }
@@ -33,7 +33,7 @@ img{
 .name {
        margin: 16px 10px 0 0; 
        float: right; 
-       font-size: 1em; 
+       font-size: 1.4em; 
        font-family: "Gill Sans", sans-serif;
 }
 
@@ -65,5 +65,5 @@ img{
     display: grid; 
     grid-template-columns: auto auto auto;  
     justify-content: space-evenly;
-    column-gap: 2rem; 
+    gap: 2em;  
  }
