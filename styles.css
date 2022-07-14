@@ -4,8 +4,9 @@ body {
 }
 
 .wrapper {
-    width: 25%;
-    height: 25%;
+    width: 27%;
+    height: 27%;
+    margin: 5%;
     position: relative;
     justify-content: left;
     align-content: space-between;
@@ -16,9 +17,9 @@ body {
     position: relative;
 } 
 img{
-    width:120px;
-    height:120px;
-    margin: 4px; 
+    width:40%;
+    height:40%;
+    margin: 5%; 
     object-fit: contain;
 }
 .image {
