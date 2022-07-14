@@ -39,8 +39,8 @@ img{
        font-size: 1.4em; 
        font-family: "Monaco", monospace;
        color: #635d63; 
-       font weight: bold; 
-       font size: 75%;
+       font-weight: bold; 
+       font-size: 75%;
 }
 
 .header {
