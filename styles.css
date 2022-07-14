@@ -6,10 +6,11 @@ body {
 .wrapper {
     width: 300px;
     height: 300px;
+    margins: 20px; 
     position: relative;
     justify-content: left;
     align-content: space-between;
-    background-color: white; 
+    background-color: yellow; 
 }
 
 .content {
