@@ -32,8 +32,8 @@ img{
 
 .name {
        margin 16px 10px 0 0; 
-       font-size: larger 
-       font-family: "Gill Sans," sans-serif;
+       font-size: 1em; 
+       font-family: "Gill Sans", sans-serif;
 }
 
 .header {
