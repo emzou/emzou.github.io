@@ -43,7 +43,7 @@ img{
 
 .header {
     border: 2px solid purple; 
-    margin:16px 10px 0 0;
+    margin:3%;
     font-size: 2em;
     font-family: "Monaco", monospace;
     padding: 20px; 
@@ -52,7 +52,7 @@ img{
     display: grid; 
     grid-template-columns: auto auto auto;  
     justify-content: space-evenly;
-    gap: 1.7em;  
+    gap: 1.2em;  
     background-color: white;  
     width:90%; 
     border: 2px solid #dbceda; 
