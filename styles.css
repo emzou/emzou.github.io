@@ -59,7 +59,7 @@ img{
     flex-wrap: wrap;
     justify-content: left;
     align-content: space-between;
-    background-color: #f7f0dc; 
+    background-color: white; 
 }    
 .grid-container {
     display: grid; 
