@@ -26,13 +26,13 @@ img{
 }
 .text {
     margin:24px 10px 0 0;
-    float:right;
+    float:left;
     font-family: "Gill Sans", sans-serif;
 }
 
 .name {
        margin: 16px 10px 0 0; 
-       float: right; 
+       float: left; 
        font-size: 1.4em; 
        font-family: "Gill Sans", sans-serif;
 }
@@ -50,4 +50,5 @@ img{
     justify-content: space-evenly;
     gap: 2em;  
     background-color: white; 
+    padding: 10px; 
  }
