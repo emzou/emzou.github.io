@@ -1,0 +1,23 @@
+.wrapper {
+  border: 1px black; 
+  margin: auto; 
+  padding: 5px; 
+}
+
+.minititle {
+  font-family: "Monaco", bold; 
+  font-size: 1.3em; 
+  padding: 1px; 
+  border: 1px black dashed; 
+}
+
+.text {
+  font-family: "Monaco"; 
+  font-size: 0.8em; 
+}
+
+.body {
+  background: white; 
+  font-family: "Monaco"; 
+}
+
