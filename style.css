@@ -51,12 +51,14 @@ h1 {
   font-family: "Monaco"; 
   font-size: 1.3em; 
   padding: 1px; 
-  margin: 30%;
+  margin-right: 30%;
+  background-color: #F0EDE6;
+  font-color: white; 
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   align: center;
   filter: grayscale(100%);
   display: inline-block;
