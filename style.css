@@ -77,9 +77,8 @@ h1 {
 
 img {
   width: 150px;
-  height: 150px;
+  height: 300px;
   align: center;
-  filter: grayscale(100%);
   display: inline-block;
 }
 
