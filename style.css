@@ -52,7 +52,8 @@ h1 {
   font-size: 9px; 
   font-family: "Monaco"; 
   background-color: #9B331B; 
-  font-color: #E2DC8E;
+  color: #E2DC8E;
+  align: center;
 }
 
 .minititle {
