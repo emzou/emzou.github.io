@@ -6,14 +6,14 @@
 
 
 
-.cypher {
+h1 {
   font-family: "Monaco", bold; 
   font-size: 3em; 
   padding: 10px; 
 }
 
 
-.typewriter cypher {
+.typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid blue; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -39,7 +39,7 @@
 
 .wrapper {
   border: 1px orange dashed; 
-  margin: 30%; 
+  float: right; 
   padding: 5px; 
 }
 
@@ -78,7 +78,8 @@
   font-family: "Monaco"; 
   font-size: 1em; 
   padding: 2%;
-  font-color: #F4E6C5;
+  color: #F4E6C5;
+  align-content: center;
 }
 
 
