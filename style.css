@@ -38,16 +38,25 @@
 
 
 .wrapper {
-  border: 1px black; 
-  margin: auto; 
+  border: 1px orange dashed; 
+  margin: 30%; 
   padding: 5px; 
 }
 
 .minititle {
-  font-family: "Monaco", bold; 
+  font-family: "Monaco"; 
   font-size: 1.3em; 
   padding: 1px; 
   border: 1px black dashed; 
+  margin: 30%;
+}
+
+posimage {
+  width: 100px;
+  height: 100px;
+  align: center;
+  filter: grayscale(100%);
+  display: inline-block;
 }
 
 .text {
