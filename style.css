@@ -40,7 +40,10 @@ h1 {
 .wrapper {
   border: 1px orange dashed; 
   float: right; 
-  padding: 5px; 
+  padding: 1px; 
+  width: 200px;
+  height: 200px;
+  display: inline-block; 
 }
 
 .minititle {
