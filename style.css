@@ -64,8 +64,21 @@
   font-size: 0.8em; 
 }
 
-.body {
-  background: white; 
-  font-family: "Monaco"; 
+.killjoy {
+  width: 200px;
+  height: 200px;
+  margin-right: 10%;
+  background-color: orange;
+  border-radius: 10%;
+  display: inline-block; 
+  float: left;
 }
+
+.turretout {
+  font-family: "Monaco"; 
+  font-size: 1em; 
+  padding: 2%;
+  font-color: #F4E6C5;
+}
+
 
