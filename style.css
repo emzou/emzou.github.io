@@ -62,6 +62,7 @@ h1 {
   display: inline-block; 
   background-color: #E7E7E0;
   border: 1px white dashed;
+  object-fit: contain; 
 }
 
 .minititle {
