@@ -114,3 +114,8 @@ img {
 }
 
 
+.longwrapper {
+  display: inline-block; 
+  border: 1px orange dashed; 
+  padding: 3px; 
+}
