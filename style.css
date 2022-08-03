@@ -47,6 +47,14 @@ h1 {
   margin-right: 10%;
 }
 
+.longbar {
+  height: 10px;
+  font-size: 9px; 
+  font-family: "Monaco"; 
+  background-color: #9B331B; 
+  font-color: #E2DC8E;
+}
+
 .minititle {
   font-family: "Monaco"; 
   font-size: 1.3em; 
