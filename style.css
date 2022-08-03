@@ -56,6 +56,16 @@ h1 {
   align: center;
 }
 
+.abilities {
+  height: 240px; 
+  padding: 5px; 
+  display: inline-block; 
+  background-color: #E7E7E0;
+}
+
+
+
+
 .minititle {
   font-family: "Monaco"; 
   font-size: 1.3em; 
