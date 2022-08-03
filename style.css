@@ -119,6 +119,7 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  grid-gap: 3px;
 }
 
 
