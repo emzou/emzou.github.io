@@ -6,14 +6,14 @@
 
 
 
-.h1 {
+.cypher {
   font-family: "Monaco", bold; 
   font-size: 3em; 
   padding: 10px; 
 }
 
 
-.typewriter h1 {
+.typewriter cypher {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid blue; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
