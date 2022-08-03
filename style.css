@@ -41,9 +41,10 @@ h1 {
   border: 1px orange dashed; 
   float: right; 
   padding: 1px; 
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: inline-block; 
+  margin-right: 10%;
 }
 
 .minititle {
