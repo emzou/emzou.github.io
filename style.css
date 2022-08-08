@@ -111,12 +111,12 @@ img {
 }
 
 .turretout {
-  font-family: "Monaco"; 
+  font-family: Arial Narrow,Arial,sans-serif; 
   font-size: 1em; 
   padding: 2%;
-  color: black;
-  align-content: center;
-  top: 50%;
+  background-color: #D0E5DD; 
+  color: #4C6A5E;
+  text-align: center; 
 }
 
 .grid-container {
