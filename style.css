@@ -142,3 +142,12 @@ a {
   font-family: "Helvetica", sans-serif; 
   size: 1.2em; 
 }
+
+.littlebar {
+  height: 10px;
+  font-size: 9px; 
+  font-family: Arial Narrow,Arial,sans-serif;  
+  background-color: #8DBD72; 
+  color: white;
+  float: right; 
+}
