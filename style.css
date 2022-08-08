@@ -76,7 +76,7 @@ h1 {
 
 img {
   width: auto; 
-  height: auto;
+  height: 100px;
   align: center;
   display: inline-block;
   padding: 3px;
