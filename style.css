@@ -1,6 +1,6 @@
 body
 {
-  margin-left: 20%;
+  margin-right: 20%;
   background-color: #FCF9F1;
 }
 
@@ -127,7 +127,7 @@ img {
 
 .longwrapper {
   display: inline-block; 
-  border: 1px orange dashed; 
+  border: 1px #4B638C dashed; 
   padding: 3px; 
 }
 
@@ -139,7 +139,7 @@ img {
 
 a {
   color: #466289; 
-  font-family: "Helvetica", sans-serif; 
+  font-family: courier, monospace;
   size: 1.2em; 
 }
 
