@@ -1,6 +1,6 @@
 body
 {
-  margin-left: 10%;
+  margin-left: 20%;
   background-color: #FCF9F1;
 }
 
@@ -38,7 +38,7 @@ h1 {
 
 
 .wrapper {
-  border: 1px orange dashed; 
+  border: 1px #1C3E6E dashed; 
   float: right; 
   padding: 1px; 
   width: 150px;
