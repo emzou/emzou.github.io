@@ -70,6 +70,7 @@ details[open] summary span.icon {
   margin-left: 20%; 
   margin-right: 20%;
   border: 1px black solid; 
+  max-width: 20%;
 }
   
 
