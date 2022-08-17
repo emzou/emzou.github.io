@@ -64,11 +64,10 @@ h1 {
 }
 
 .abilities {
-  height: 240px; 
+  height: 200px; 
   padding: 5px; 
   display: inline-block; 
-  background-color: #E7E7E0;
-  border: 1px white dashed;
+  border: 0.9px white solid; 
   object-fit: contain; 
 }
 
