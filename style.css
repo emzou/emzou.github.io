@@ -210,9 +210,6 @@ a {
 
 wetails {
   user-select: none;
-}
-
-wummary {
   display: flex;
   cursor: pointer;
   border: 1px black solid; 
@@ -220,6 +217,18 @@ wummary {
   font-size: 0.8em; 
   padding: 5px; 
   display: inline-block;
+  float: left;
+}
+
+wummary {
+  display: flex;
+  cursor: pointer;
+  border: 1px black solid; 
+  font-family: Geneva; 
+  font-size: 1em; 
+  padding: 1px; 
+  display: inline-block;
+  float: left; 
 }
 
 wummary::-webkit-details-marker {
