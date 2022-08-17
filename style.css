@@ -83,6 +83,13 @@ details[open] summary span.icon {
   padding: 5px; 
 }
 
+.lowrapper {
+  display: inline-block; 
+  float: right; 
+  border: 1px #4B638C solid; 
+  padding: 5px; 
+}
+
 .mediumest {
   border: 1px black solid; 
   width: 40%; 
