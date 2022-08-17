@@ -1,3 +1,10 @@
+
+a {
+  color: #466289; 
+  font-family: Geneva;
+  size: 0.9em; 
+}
+
 .abilcontainer {
   display: grid; 
   grid-template-columns: auto auto auto auto; 
@@ -26,7 +33,7 @@ body
 
 .datepub {
   font-family: Geneva; 
-  color: grey; 
+  color: #466289; 
   font-size: 0.6em; 
   padding: 2px; 
 }
@@ -44,6 +51,13 @@ details>summary span.icon {
 
 details[open] summary span.icon {
   transform: rotate(180deg);
+}
+
+.longbar {
+  font-size: 20px; 
+  font-family: Geneva; 
+  color: black;
+  align: center;
 }
 
 .mediumest {
@@ -83,6 +97,13 @@ img {
   display: inline-block;
 }
 
+.turretout {
+  font-family: Geneva; 
+  font-weight: bold; 
+  font-size: 1em; 
+  padding: 2%; 
+  color: black;  
+}
 
 .typewriter longbar {
   font-family: Geneva; 
@@ -106,15 +127,19 @@ img {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: blue; }
+  50% { border-color: #466289; }
 }
 
 
-
-
-
+.slay {
+  font-family: Geneva; 
+  font-size: 1.1em; 
+  color: #466289; 
+}
   
-
+  
+  
+  
 .wrapper {
   border: 1px #1C3E6E dashed; 
   float: right; 
@@ -125,12 +150,7 @@ img {
   margin-right: 10%;
 }
 
-.longbar {
-  font-size: 20px; 
-  font-family: Geneva; 
-  color: black;
-  align: center;
-}
+
 
 .minititle {
   font-family: Geneva;   
@@ -157,29 +177,7 @@ img {
   position: relative;
 }
 
-.killjoy, .bottie {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  margin-right: 10%;
-  background-color: orange;
-  border-radius: 10%;
-  display: inline-block; 
-  top: 0;
-  left:0;
-}
 
-.bottie {
-  z-index: 10;
-}
-
-.turretout {
-  font-family: Geneva; 
-  font-weight: bold; 
-  font-size: 1em; 
-  padding: 2%; 
-  color: black;  
-}
 
 .grid-container {
   display: grid;
@@ -193,56 +191,4 @@ img {
   border: 1px #4B638C solid; 
   padding: 3px; 
 }
-
-
-
-a {
-  color: #466289; 
-  font-family: Geneva;
-  size: 0.9em; 
-}
-
-.littlebar {
-  height: 10px;
-  font-size: 9px; 
-  font-family: Geneva;  
-  background-color: #8DBD72; 
-  color: white;
-  float: right; 
-}
-
-
-wetails {
-  user-select: none;
-}
-
-wetails>wummary span.icon {
-  width: 24px;
-  height: 24px;
-  transition: all 0.3s;
-  margin-left: auto;
-}
-
-wetails[open] wummary span.icon {
-  transform: rotate(180deg);
-}
-
-wummary {
-  display: flex;
-  cursor: pointer;
-  font-family: Geneva; 
-  font-size: 1em; 
-  padding: 10px; 
-  margin-left: 20%; 
-  margin-right: 20%;
-  border: 1px black solid; 
-}
-
-wummary::-webkit-details-marker {
-  display: none;
-}
-
-
-
-
 
