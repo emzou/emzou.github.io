@@ -54,9 +54,7 @@ details[open] summary span.icon {
 }
 
 .fortnite {
-  float: right; 
-  margin-right: 20%;
-  display: inline-block; 
+  float: right;  
 }
     
 .grid-container {
@@ -94,7 +92,7 @@ details[open] summary span.icon {
   float: right; 
   border: 1px #4B638C solid; 
   padding: 5px; 
-  margin-right: 10%;
+  margin-left: 90%;
   max-height: 30%; 
 }
 
@@ -198,7 +196,6 @@ img {
   max-width: 20%; 
   height: auto; 
   float: right; 
-  margin-right: 20%;
 }
 
 .invis {
