@@ -53,6 +53,10 @@ details[open] summary span.icon {
   transform: rotate(180deg);
 }
 
+.fortnite {
+  float: right; 
+  {
+    
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
