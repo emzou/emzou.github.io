@@ -81,6 +81,7 @@ details[open] summary span.icon {
   font-family: Geneva; 
   color: black;
   align: center;
+  float: left; 
 }
 
 .longwrapper {
@@ -93,8 +94,7 @@ details[open] summary span.icon {
   display: inline-block; 
   float: right; 
   border: 1px #4B638C solid; 
-  padding: 5px; 
-  margin-left: 90%;
+  padding: 5px;
   max-height: 30%; 
 }
 
@@ -136,6 +136,7 @@ img {
   height: 500px;
   display: inline-block;
   z-index: 1;
+  float: left; 
 }
 
 .turretout {
@@ -198,7 +199,6 @@ img {
   max-width: 50%; 
   height: auto; 
   float: right; 
-  margin-left: 90%; 
 }
 
 .invis {
