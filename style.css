@@ -36,6 +36,10 @@ details[open] summary span.icon {
 summary {
   display: flex;
   cursor: pointer;
+  font-family: Geneva; 
+  font-size: 1em; 
+  padding: 10px; 
+  text-align: center; 
 }
 
 summary::-webkit-details-marker {
