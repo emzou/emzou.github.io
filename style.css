@@ -62,7 +62,7 @@ details[open] summary span.icon {
 
 .mediumest {
   border: 1px black solid; 
-  width: 50%; 
+  width: 40%; 
   height: auto; 
   display: inline-block; 
   float: right; 
@@ -87,7 +87,7 @@ summary::-webkit-details-marker {
 h1 {
   font-family: Geneva;   
   font-size: 3em; 
-  padding: 2px; 
+  padding: 10px; 
   float: left; 
 }
 
