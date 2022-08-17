@@ -53,11 +53,23 @@ details[open] summary span.icon {
   transform: rotate(180deg);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 3px;
+}
+
 .longbar {
   font-size: 20px; 
   font-family: Geneva; 
   color: black;
   align: center;
+}
+
+.longwrapper {
+  display: inline-block; 
+  border: 1px #4B638C solid; 
+  padding: 3px; 
 }
 
 .mediumest {
@@ -133,35 +145,11 @@ img {
 
 .slay {
   font-family: Geneva; 
-  font-size: 1.1em; 
+  font-size: 0.8em; 
   color: #466289; 
+  margin-left: 5%; 
 }
   
-  
-  
-  
-.wrapper {
-  border: 1px #1C3E6E dashed; 
-  float: right; 
-  padding: 1px; 
-  width: 150px;
-  height: 150px;
-  display: inline-block; 
-  margin-right: 10%;
-}
-
-
-
-.minititle {
-  font-family: Geneva;   
-  font-size: 1.3em; 
-  padding: 1px; 
-  margin-right: 30%;
-  background-color: #F0EDE6;
-  font-color: white; 
-}
-
-
 
 .text {
   font-family: Geneva;  
@@ -169,26 +157,5 @@ img {
   color:rgb(146, 178, 164);
    margin-left: 20%; 
   margin-right: 20%;
-}
-
-.lockdown {
-  width: 200px; 
-  height: 200px; 
-  position: relative;
-}
-
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 3px;
-}
-
-
-.longwrapper {
-  display: inline-block; 
-  border: 1px #4B638C solid; 
-  padding: 3px; 
 }
 
