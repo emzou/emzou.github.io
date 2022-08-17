@@ -230,12 +230,12 @@ wetails[open] wummary span.icon {
 wummary {
   display: flex;
   cursor: pointer;
-  border: 1px black solid; 
   font-family: Geneva; 
   font-size: 1em; 
-  padding: 1px; 
-  display: inline-block;
-  float: left; 
+  padding: 10px; 
+  margin-left: 20%; 
+  margin-right: 20%;
+  border: 1px black solid; 
 }
 
 wummary::-webkit-details-marker {
