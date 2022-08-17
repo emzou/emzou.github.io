@@ -37,6 +37,15 @@ h1 {
 }
 
 
+.biggest {
+  border: 1px black solid; 
+  padding: 1px;
+  width: 90%; 
+  height: 90%; 
+  display: inline-block; 
+}
+
+
 .wrapper {
   border: 1px #1C3E6E dashed; 
   float: right; 
