@@ -59,6 +59,16 @@ details[open] summary span.icon {
   grid-gap: 3px;
 }
 
+.kewl {
+  font-family: Geneva; 
+  font-size: 1em; 
+  padding: 10px; 
+  margin-left: 20%; 
+  margin-right: 20%;
+  border: 1px black solid; 
+}
+  
+
 .longbar {
   font-size: 20px; 
   font-family: Geneva; 
