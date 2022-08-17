@@ -114,6 +114,8 @@ summary {
   padding: 10px; 
   border: 1px black solid; 
   max-width: 20%;
+  float: left; 
+  margin-right: 25%; 
 }
 
 summary::-webkit-details-marker {
