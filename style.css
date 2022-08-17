@@ -195,9 +195,10 @@ img {
 }
 
 .peepee { 
-  max-width: 20%; 
+  max-width: 50%; 
   height: auto; 
   float: right; 
+  margin-left: 90%; 
 }
 
 .invis {
