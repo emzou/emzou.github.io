@@ -92,7 +92,8 @@ details[open] summary span.icon {
   float: right; 
   border: 1px #4B638C solid; 
   padding: 5px; 
-  margin-right: 20%;
+  margin-right: 30%;
+  max-height: 30%; 
 }
 
 .mediumest {
