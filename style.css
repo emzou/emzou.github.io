@@ -69,10 +69,10 @@ details[open] summary span.icon {
   font-family: Geneva; 
   font-size: 1em; 
   padding: 10px; 
-  margin-left: 20%; 
-  margin-right: 20%;
   border: 1px black solid; 
   max-width: 20%;
+  float: left; 
+  margin-right: 25%; 
 }
   
 
@@ -195,6 +195,8 @@ img {
 .peepee { 
   max-width: 20%; 
   height: auto; 
+  float: left; 
+  margin-right: 25%; 
 }
 
 .invis {
