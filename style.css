@@ -210,14 +210,6 @@ a {
 
 wetails {
   user-select: none;
-  display: flex;
-  cursor: pointer;
-  border: 1px black solid; 
-  font-family: Geneva; 
-  font-size: 0.8em; 
-  padding: 5px; 
-  display: inline-block;
-  float: left;
 }
 
 wummary {
