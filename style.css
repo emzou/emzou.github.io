@@ -80,14 +80,6 @@ h1 {
   align: center;
 }
 
-.abilities {
-  height: 200px; 
-  padding: 5px; 
-  display: inline-block; 
-  border: 0.9px white solid; 
-  object-fit: contain; 
-}
-
 .minititle {
   font-family: Geneva;   
   font-size: 1.3em; 
@@ -133,11 +125,10 @@ img {
 }
 
 .turretout {
-  font-family: Geneva; 
-  font-size: 1em; 
-  padding: 2%;
-  background-color: #D0E5DD; 
-  color: #4C6A5E;
+  font-family: Geneva, bold; 
+  font-size: 0.8em; 
+  padding: 2%; 
+  color: black; 
   text-align: center; 
 }
 
@@ -150,7 +141,7 @@ img {
 
 .longwrapper {
   display: inline-block; 
-  border: 1px #4B638C dashed; 
+  border: 1px #4B638C solid; 
   padding: 3px; 
 }
 
