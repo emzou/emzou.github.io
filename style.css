@@ -49,9 +49,8 @@ details[open] summary span.icon {
 
 .mediumest {
   border: 1px black solid; 
-  padding: 1px;
   width: 75%; 
-  height: 75%; 
+  height: 100%; 
   display: inline-block; 
   float: right; 
 }
