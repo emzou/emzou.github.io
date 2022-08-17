@@ -76,6 +76,13 @@ h1 {
   float: left; 
 }
 
+img {
+  width: auto; 
+  height: 500px;
+  align: center;
+  display: inline-block;
+}
+
 
 .typewriter longbar {
   font-family: Geneva; 
@@ -134,12 +141,7 @@ h1 {
   font-color: white; 
 }
 
-img {
-  width: auto; 
-  height: 300px;
-  align: center;
-  display: inline-block;
-}
+
 
 .text {
   font-family: Geneva;  
