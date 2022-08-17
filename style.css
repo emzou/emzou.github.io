@@ -25,13 +25,11 @@ body
   display: inline-block; 
 }
 
-.mediumest {
-  border: 1px black solid; 
-  padding: 1px;
-  width: 75%; 
-  height: 75%; 
-  display: inline-block; 
-  float: right; 
+.datepub {
+  font-family: Geneva; 
+  color: grey; 
+  font-size: 0.6em; 
+  padding: 2px; 
 }
 
 details {
@@ -49,13 +47,22 @@ details[open] summary span.icon {
   transform: rotate(180deg);
 }
 
+.mediumest {
+  border: 1px black solid; 
+  padding: 1px;
+  width: 75%; 
+  height: 75%; 
+  display: inline-block; 
+  float: right; 
+}
+
 summary {
   display: flex;
   cursor: pointer;
   font-family: Geneva; 
   font-size: 1em; 
   padding: 10px; 
-  text-align: center; 
+  margin-left: 50%;  
   border: 1px black solid; 
 }
 
@@ -183,11 +190,7 @@ img {
   padding: 3px; 
 }
 
-.datepub {
-  font-family: Geneva; 
-  color: green; 
-  font-size: 0.6em; 
-}
+
 
 a {
   color: #466289; 
