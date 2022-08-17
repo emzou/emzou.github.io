@@ -1,3 +1,11 @@
+.abilcontainer {
+  float: right; 
+  display: grid; 
+  grid-template-columns: 40px 40px 40px 40px; 
+  grid-template-rows: 20px 20px 20px 20px; 
+  justify-content: space-evenly; 
+}
+
 body
 {
   margin-right: 20%;
@@ -45,13 +53,7 @@ h1 {
   display: inline-block; 
 }
 
-.abilcontainer {
-  float: right; 
-  display: grid; 
-  grid-template-columns: 40px 40px 40px 40px; 
-  grid-template-rows: 40px 40px 40px 40px; 
-  justify-content: space-evenly; 
-}
+
   
 
 .wrapper {
