@@ -70,7 +70,7 @@ details[open] summary span.icon {
   
 
 .longbar {
-  font-size: 20px; 
+  font-size: 1.2em;  
   font-family: Geneva; 
   color: black;
   align: center;
@@ -118,6 +118,7 @@ h1 {
   font-size: 3em; 
   padding: 10px; 
   float: left; 
+  margin-left: 25%; 
 }
 
 img {
