@@ -48,8 +48,8 @@ details[open] summary span.icon {
 
 .mediumest {
   border: 1px black solid; 
-  width: 75%; 
-  height: 100%; 
+  width: 50%; 
+  height: auto; 
   display: inline-block; 
   float: right; 
 }
@@ -80,7 +80,6 @@ h1 {
 img {
   width: auto; 
   height: 500px;
-  align: center;
   display: inline-block;
 }
 
