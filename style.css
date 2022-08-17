@@ -6,6 +6,12 @@
   justify-content: space-evenly; 
 }
 
+.abiltitles {
+  color: black; 
+  font-size: 90%; 
+  font-family: Geneva; 
+}
+
 body
 {
   margin-right: 20%;
