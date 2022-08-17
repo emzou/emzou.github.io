@@ -55,6 +55,8 @@ details[open] summary span.icon {
 
 .fortnite {
   float: right; 
+  margin- left: 80%; 
+  display: inline-block; 
 }
     
 .grid-container {
