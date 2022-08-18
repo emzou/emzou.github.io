@@ -124,7 +124,7 @@ h1 {
   font-family: Geneva;   
   font-size: 3em; 
   padding: 3px; 
-  float: left; 
+  margin-top: 50%; 
   margin-right: 25%; 
 }
 
@@ -196,9 +196,14 @@ img {
   max-width: 50%; 
   height: auto; 
   float: right; 
-  display: inline-block; 
+  display: inline-block;   
 }
 
 .invis {
   padding: 5% 
+}
+
+.keeptog {
+  float: right; 
+  display: inline-block; 
 }
