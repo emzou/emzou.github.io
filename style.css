@@ -19,8 +19,8 @@ a {
 
 body
 {
-  margin-right: 8%;
-  margin-left: 4%;
+  margin-right: 10%;
+  margin-left: 10%;
   background-color: #FCF9F1;
 }
 
@@ -208,7 +208,7 @@ img {
 
 .trolling {
   display: grid; 
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 3px;
 }
   
