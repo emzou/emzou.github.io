@@ -212,3 +212,7 @@ img {
   grid-gap: 3px;
 }
   
+.invisit {
+  display: inline-block; 
+  padding: 2px; 
+}
