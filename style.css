@@ -126,7 +126,7 @@ summary::-webkit-details-marker {
 h1 {
   font-family: Geneva;   
   font-size: 3em; 
-  padding: 3px;    
+  margin-bottom: 30%;
 }
 
 img {
