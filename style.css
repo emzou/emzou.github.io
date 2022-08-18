@@ -90,7 +90,7 @@ details[open] summary span.icon {
 
 .lowrapper {
   display: inline-block; 
-  float: right; 
+  float: left; 
   border: 1px #4B638C solid; 
   padding: 5px;
   max-height: 30%; 
