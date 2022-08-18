@@ -5,6 +5,14 @@ a {
   size: 0.8em; 
 }
 
+a:hover {
+  color: #4d753c;
+}
+
+a:visited {
+  color: #2d3f59;
+}
+
 .abilcontainer {
   display: grid; 
   grid-template-columns: auto auto auto auto; 
