@@ -1,7 +1,7 @@
 
 a {
   color: #466289; 
-  font-family: Geneva;
+  font-family: Geneva, sans-serif;
   size: 0.8em; 
 }
 
@@ -18,7 +18,7 @@ a:hover {
 .abiltitles {
   color: black; 
   font-size: 90%; 
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
 }
 
 body
@@ -36,7 +36,7 @@ body
 }
 
 .datepub {
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
   color: #466289; 
   font-size: 0.6em; 
   padding: 2px; 
@@ -69,7 +69,7 @@ details[open] summary span.icon {
 }
 
 .kewl {
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
   font-size: 1em; 
   padding: 10px; 
   border: 1px black solid; 
@@ -79,7 +79,7 @@ details[open] summary span.icon {
 
 .longbar {
   font-size: 1.2em;  
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
   color: black;
   align: center;
   float: left; 
@@ -110,7 +110,7 @@ details[open] summary span.icon {
 summary {
   display: flex;
   cursor: pointer;
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
   font-size: 1em; 
   padding: 10px; 
   border: 1px black solid; 
@@ -124,7 +124,7 @@ summary::-webkit-details-marker {
 
 
 h1 {
-  font-family: Geneva;   
+  font-family: Geneva, sans-serif;   
   font-size: 5em; 
   float: right; 
 }
@@ -138,7 +138,7 @@ img {
 }
 
 .turretout {
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
   font-weight: bold; 
   font-size: 1em; 
   padding: 2%; 
@@ -146,7 +146,7 @@ img {
 }
 
 .typewriter longbar {
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
   font-size: 1.3em; 
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid blue; /* The typwriter cursor */
@@ -172,7 +172,7 @@ img {
 
 
 .slay {
-  font-family: Geneva; 
+  font-family: Geneva, sans-serif; 
   font-size: 0.8em; 
   color: #466289; 
   margin-left: 5%; 
@@ -181,7 +181,7 @@ img {
   
 
 .text {
-  font-family: Geneva;  
+  font-family: Geneva, sans-serif;  
   font-size: 0.8em; 
   color:rgb(146, 178, 164);
    margin-left: 20%; 
