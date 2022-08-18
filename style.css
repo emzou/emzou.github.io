@@ -207,3 +207,10 @@ img {
   float: right; 
   display: inline-block; 
 }
+
+.trolling {
+  display: grid; 
+  grid-template-columns: auto auto;
+  grid-gap: 3px;
+}
+  
