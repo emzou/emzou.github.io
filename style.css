@@ -125,7 +125,7 @@ summary::-webkit-details-marker {
 
 h1 {
   font-family: Geneva;   
-  font-size: 3em; 
+  font-size: 5em; 
   margin-bottom: 30%;
 }
 
@@ -142,7 +142,7 @@ img {
   font-weight: bold; 
   font-size: 1em; 
   padding: 2%; 
-  color: black;  
+  color: #30282a;  
 }
 
 .typewriter longbar {
