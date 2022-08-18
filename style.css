@@ -190,9 +190,7 @@ img {
 }
 
 .peepee { 
-  max-width: 50%; 
-  height: auto; 
-  float: right; 
+  height: auto;  
   display: inline-block;   
 }
 
