@@ -196,6 +196,7 @@ img {
   max-width: 50%; 
   height: auto; 
   float: right; 
+  display: inline-block; 
 }
 
 .invis {
