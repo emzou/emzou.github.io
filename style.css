@@ -110,8 +110,7 @@ summary {
   font-size: 1em; 
   padding: 10px; 
   border: 1px black solid; 
-  max-width: 20%;
-  float: right; 
+  max-width: 40%; 
 }
 
 summary::-webkit-details-marker {
