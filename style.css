@@ -188,6 +188,8 @@ img {
 .pwrapper {
   margin-left: 1%; 
   margin-right: 1%;
+  float: right; 
+  display: inline-block; 
 }
 
 .peepee { 
