@@ -1,110 +1,105 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title> emily zou </title> 
-  <link rel = "shortcut icon" type = "image/jpg" href= "quinthree.png" />
-<link rel= "stylesheet" type="text/css" href= "style.css">
-<script src="https://kit.fontawesome.com/d6021620ad.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emily zou </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
-<body> 
-   
-    <h1> emily zou [ez] </h1> 
+<body>
 
-  <section class = "abilcontainer" >
-    <div class = "invisit" >
-       <div class = "peepee" >
-         <div class = "turretout" > + <a href= "https://emzou.github.io/research.html" >  RESEARCH </a>
-         </div> 
-       </div>
-    </div>
+    <!-- tabs... a new era for me -->
+    <nav class="tab-header">
+        <button class="tab-button name-tab" onclick="openTab('home')">emily zou</button>
+        <button class="tab-button active" onclick="openTab('research')">research</button>
+        <button class="tab-button" onclick="openTab('reading')">writing i like</button>
+        <button class="tab-button" onclick="openTab('thoughts')">in action</button>
+    </nav>
 
-    <div class = "invisit" >
-       <div class = "peepee" >
-          <div class = "turretout" > + <a href= "https://emzou.github.io/work.html" >  WORK </a>
-         </div>  
-       </div>
-    </div>
+    <!-- Home Page Content -->
+    <main id="home" class="tab-section active">
+        <div class="home-container">
+            <div class="home-image">
+                <img src="profile.jpg" alt="Your Picture">
+            </div>
+            <div class="home-text">
+                <h2>I want to know how you know things</h2>
+                <div class="text-content">
+                    <p>I'm a first-year PhD student in Stanford's Communication department, where I'm advised by Dr. Jennifer Pan. I'm interested in how people 
+                        learn and talk about politics online. I investigate this through natural language processing and computational social science 
+                        broadly. Before, I was an undergraduate in Northwestern's American Studies program. I graduated in 2024.</p>
 
-    <div class = "invisit" >
-       <div class = "peepee" >
-         <div class = "turretout" > + <a href= "https://emzou.github.io/writing.html" >  WRITING </a>
-         </div> 
-       </div>
-    </div>
+                    <p> I just got here, and I'm working to actually have things on here soon. I'll probably be researching and writing about online communities, how I don't think there's a distinction between
+                        politics and non-politics, classifying 'political' text in NLP pipelines, and describing circuits of information.</p>
 
-      <div class = "invisit" >
-       <div class = "peepee" >
-         <div class = "turretout" > + <a href= "https://emzou.github.io/medias.html" >  IN-BETWEEN </a>
-         </div> 
-       </div>
-    </div>
+                    <p> I am a optimistic humanist who is often cranky. I am also earnesty-pilled and love talking to people. Please reach out to talk about research, books/movies, 
+                        do armchair sociology on content creators, etc...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-  </section>
-  
- <section class = "biggest" > 
-   <section class = "trolling" >  
-     
-   <img src = "ezou.png" /> 
-     
-   <div class = "keeptog" >
-     <div class = "turretout"> */ select your fighter  </div>
-        <div class = "invisit" >
-             <div class = "text" > Excellent choice! Emily is interested in how people come to know things online. She is an Honors student in American Studies at Northwestern University, currently finishing her final year
-               </div> 
-          <br>
-          <div class = "turretout"> */  latest patch updates  </div>
-         <div class = "text" > 
-          +12/23 Submitted PhD applications in Information Science and Communication(yay!) <br>
-          +09/23 Began work as an Editorial Intern for the National Education Association <br> 
-          +09/23 Began work on honors Senior Thesis, advised by Dr. Aaron Shaw, studying how digital platforms alter political communication <br>
-          +09/23 Completed work under the Baker Undergraduate Research Program, assisting research with Dr. Shmulik Nili <br>
-          <br> 
-          <br> 
+    <!-- this is embarassing -->
+    <section id="research" class="tab-section">
+        <h2 class="medium-heading">Research</h2>
+        <p> <a href = "hcid22poster.pdf">(Don't) Ignore Your Haters: Antagonistic Mutualism in Online Communities" </a>
+            Emily Zou, Sohyeon Hwang, Nate TeBlunthuis, Aaron Shaw. 
+            I presented at the Lambert Conference on the Future of Human-Computer Interaction on October 15 2022.
+        </p>
+    </section>
 
-            <div class = "turretout"> */  favorite writing  </div>
-         <div class = "text" > 
-          +      <a href = "https://statmodeling.stat.columbia.edu/2023/10/02/beneath-every-application-of-causal-inference-to-ml-lies-a-ridiculously-hard-social-science-problem/" >
-                  <div class = "text" > "Beneath every application of causal inference to ML lies a ridiculously hard social science problem </div> </a><br>
-                 <div class = "text" > by Jessica Hullman </div> </a><br>
+   <!-- Reading Section -->
+<section id="reading" class="tab-section">
+    <h2 class="medium-heading">Writing I Like</h2>
+    <p>I keep coming back to these:</p>
 
-           +      <a href = "https://www.phenomenalworld.org/analysis/direct-effects/#fn:nas_1" >
-                  <div class = "text" > "Direct Effects: How should we measure racial discrimination? </div> </a><br>
-                 <div class = "text" > by Lily Hu </div> </a><br>
-          
-          <br> 
-          <br> 
-
-
-          
-
-      <div class = "turretout"> also  </div>
-
-          <a href = "https://emzou.github.io/ezou cv.pdf" >
-        <div class = "text" > +cv </div> </a>
-           
-      <a href = "https://www.linkedin.com/in/emily-zou-6241a6177/" >
-        <div class = "text" > +linkedin </div> </a>
-      
-  
-       
-       <a href = "https://github.com/emzou" > 
-       <div class = "text" > +github </div>  </a> 
-                 
-             
-         
-       <a href = "https://www.goodreads.com/user/show/100621161-easy" >
+    <ul>
+        <li>
+            <strong>"Direct Effects: How should we measure racial discrimination?"</strong> by Lily Hu 
+            – <a href="https://www.phenomenalworld.org/analysis/direct-effects/#fn:nas_1" target="_blank">Read here</a>
+        </li>
         
-           <div class = "text" > +goodreads </div>  </a>
-              
-       
-       <a href = "https://medal.tv/u/gearfifth?invite=ur-MSxFQVQsMTkyMzM4NTMwLA" >
-     <div class = "text" > +gamingclips </div>   </a>
-           
+        <li>
+            <strong>"A New Era of Minimal Effects? The Changing Foundations of Political Communication"</strong> 
+            by W. Lance Bennett and Shanto Iyengar – 
+            <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1460-2466.2008.00410.x" target="_blank">Read here</a>
+        </li>
 
-    </div> 
-   </div>
-   </div>
-   </section>
- </section>      
+        <li>
+            <strong>"Machine Learning for Social Science: An Agnostic Approach"</strong> 
+            by Justin Grimmer, Margaret Roberts, and Brandon Stewart – 
+            <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-polisci-053119-015921" target="_blank">Read here</a>
+        </li>
+
+        <li>
+            <strong>"Don’t blame distributional semantics if it can’t do entailment"</strong> 
+            by Westera, M., & Boleda, G. (2019) –  
+            <a href="https://aclanthology.org/W19-0410.pdf" target="_blank">Read here (PDF)</a>
+        </li>
+    </ul>
+</section>
+
+
+    <!-- Thoughts Section -->
+<section id="thoughts" class="tab-section">
+    <h2 class="medium-heading">My Thoughts</h2>
+    <p>I write and share things in different places:</p>
+    
+    <ul>
+        <li>🎬 I write about movies on <a href="https://letterboxd.com/emilyzou/" target="_blank">Letterboxd</a>.</li>
+        <li>📚 I log my books on <a href="https://www.goodreads.com/user/show/100621161-easy" target="_blank">Goodreads</a>.</li>
+        <li>💻 My projects and code are on <a href="https://github.com/emzou" target="_blank">GitHub</a>.</li>
+        <li>🎮 Some crazy clips I hit are on <a href="https://medal.tv/u/gearfifth?invite=ur-MSxFQVQsMTkyMzM4NTMwLA" target="_blank">Medal.tv</a>.</li>
+    </ul>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>easyone [at] stanford.edu </p>
+    </footer>
+
 </body>
 </html>
