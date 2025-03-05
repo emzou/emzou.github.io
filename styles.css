@@ -99,9 +99,9 @@ body {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #EBEBEB;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 15px;
     position: relative;
     bottom: 0;
