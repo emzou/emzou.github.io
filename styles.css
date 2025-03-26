@@ -7,32 +7,34 @@ body {
     text-align: center;
 }
 
-/* Navigation - Separating Name & Tabs */
-.nav-container {
+/* Navigation Bar Layout */
+.nav-bar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    padding: 0.5rem 2rem;
 }
 
-/* Name (Red, Separate from Tabs) */
+/* Name on the Left */
 .name-tab {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
     color: red;
-    margin-bottom: 10px;
 }
 
-/* Tab Links (Blue) */
+/* Tab Links on the Right */
 .tab-links {
     display: flex;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
+/* Each Tab Styled as a Bordered Box */
 .tab-button {
     background: none;
-    border: none;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 0.3rem 0.8rem;
     font-size: 18px;
     color: blue;
     cursor: pointer;
@@ -44,16 +46,28 @@ body {
 /* Hover & Active State */
 .tab-button:hover, .tab-button.active {
     text-decoration: underline;
+    background-color: rgba(173, 216, 230, 0.1); /* Optional subtle hover */
 }
 
-/* Content Section - Aligning Text with Title */
+/* Research Section Styles */
+.research-entry {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.research-entry p {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+}
+
+/* Content Section */
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
-    max-width: 600px; /* Controls width to match the heading */
-    margin: auto; /* Centers the content */
+    max-width: 600px;
+    margin: auto;
     padding: 20px;
 }
 
@@ -65,7 +79,6 @@ body {
     text-align: center;
     margin-bottom: 10px;
 }
-
 
 /* Home Page Layout */
 .home-container {
@@ -120,3 +133,4 @@ footer {
         padding: 10px;
     }
 }
+
