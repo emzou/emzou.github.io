@@ -27,7 +27,7 @@ body {
 /* Tab Links (Blue) */
 .tab-links {
     display: flex;
-    gap: 15px; /* Spacing between tabs */
+    gap: 2rem; 
 }
 
 .tab-button {
