@@ -64,6 +64,8 @@ body {
     max-width: 600px;
     margin: auto;
     padding: 1.5em;
+    border: 1px solid lightblue; 
+    border-radius: 10px; 
 }
 
 /* Heading Style */
