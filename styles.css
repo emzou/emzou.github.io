@@ -25,7 +25,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
-    color: red;
+    color: #9E1515;
 }
 
 /* Tab Links on the Right */
@@ -108,7 +108,7 @@ body {
 /* Footer */
 footer {
     background-color: #EBEBEB;
-    color: lightblue;
+    color: #942E2E;
     text-align: left;
     padding: 1em;
     position: relative;
