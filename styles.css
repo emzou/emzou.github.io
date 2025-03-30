@@ -147,6 +147,16 @@ footer {
     color: #333;
 }
 
+/* Kill the purple forever and set all links to light blue */
+a, a:visited, a:hover, a:active {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
