@@ -4,58 +4,82 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>emily zou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="quinthree.png" />
 </head>
 <body>
 
-  <!-- Vertical boundary lines -->
+  <!-- Vertical lines -->
+  <div class="vertical-line leftedge"></div>
+  <div class = "thick-line left" ></div>
   <div class="vertical-line left"></div>
+
+  <div class="exposure-scale">
+    <div class="ev-tick" data-label="+3"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="+2"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="+1"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="0"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="-1"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="-2"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="-3"></div>
+  </div>
+
+
+  <div class="thick-line right"></div>
+
   <div class="vertical-line right"></div>
 
   <div class="page-wrapper">
 
-    <!-- Left tab sidebar -->
-    <aside class="sidebar">
-      <a href="research.html" class="tab-button">research</a>
-      <a href="reading.html" class="tab-button">writing_i_like</a>
-      <a href="thoughts.html" class="tab-button">other_presence</a>
-    </aside>
-
-    <!-- Main content -->
+    <!-- Main content area -->
     <main class="main-content">
-      <div class="name-header">emily zou</div>
-
-      <div class="home-container">
-        <div class="home-image">
-          <img src="emleezoo.jpeg" alt="itsme" />
-        </div>
-        <div class="home-text">
-          <h2>I want to know how you know things</h2>
-          <div class="text-content">
-            <p>I'm a first-year PhD student in Stanford's Communication department, where I'm advised by Dr. Jennifer Pan. I'm interested in how people 
-            learn and talk about politics online. I investigate this through natural language processing and computational social science 
-            broadly. Before, I was an undergraduate in Northwestern's American Studies program. I graduated in 2024.</p>
-
-            <p>Above all, I am driven by an earnest, naive love for humanity, please reach out to talk about anything. I'm currently thinking a lot about 
-            attempts to create 'America' in film, how the experience of video games is fundamentally a religious one, and what the One Piece is.</p>
+      <div class="tab-dial">
+        <button class="tab-button active" data-tab="home">home</button>
+        <button class="tab-button" data-tab="research">research</button>
+        <button class="tab-button" data-tab="also">also</button>
+        <div class="tab-indicator" id="tab-indicator">home</div>
+      </div>
+      
+    
+      <div id="tab-content-area">
+        <!-- Home content loaded inline initially -->
+        <div class="name-header">emily zou</div>
+        <div class="cam-frame">
+          <div class="home-image-frame">
+            <div class="home-image">
+              <img src="emleezoo.jpeg" alt="itsme" />
+            </div>
+          </div>
+          <div class="home-text">
+            <h2>I want to know how you know things</h2>
+            <p>I'm a first-year PhD student in Stanford's Communication department, where I'm advised by Dr. Jennifer Pan. I'm interested in how people learn and talk about politics online. I investigate this through natural language processing and computational social science broadly.</p>
           </div>
         </div>
+        <div class="film-strip">
+          <span class="film-branding">easyone at stanford dot edu</span>
+        </div>        
       </div>
-
-      <!-- Footer -->
-      <footer>
-        <p>
-          easyone [at] stanford.edu &nbsp;|&nbsp;
-          <a href="https://calendar.app.google/u5mwTNHBBZvMP9Hd8" target="_blank" rel="noopener noreferrer">
-            find time to meet
-          </a>
-        </p>
-      </footer>
     </main>
-  </div>
+    
 
+  
+
+
+  <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
 
 
