@@ -1,97 +1,80 @@
-/* General Styles */
 body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    text-align: center;
 }
 
-/* Page Container with Scalable Padding */
-.page-container {
-    padding: 0 2em; /* horizontal padding that scales with font size */
+/* Vertical Guide Lines */
+.vertical-line {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: black;
+    z-index: 1000;
+    pointer-events: none;
 }
 
-/* Navigation Bar Layout */
-.nav-bar {
+.vertical-line.left { left: 25%; }
+.vertical-line.right { left: 75%; }
+
+/* Layout Containers */
+.page-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 0; /* Removed horizontal padding since .page-container handles it */
+    min-height: 100vh;
 }
 
-/* Name on the Left */
-.name-tab {
-    font-size: 22px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #9E1515;
-}
-
-/* Tab Links on the Right */
-.tab-links {
+/* Left Sidebar (25%) */
+.sidebar {
+    width: 25%;
+    padding: 2rem 1rem;
     display: flex;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
 }
 
-/* Each Tab Styled as a Bordered Box */
+/* Tab Buttons */
 .tab-button {
-    background: none;
+    margin-bottom: 1.2rem;
+    padding: 0.5rem 1rem;
     border: 1px solid lightblue;
     border-radius: 5px;
-    padding: 0.3rem 0.8rem;
-    font-size: 18px;
+    background: none;
+    font-size: 1rem;
     color: blue;
+    text-decoration: none;
     cursor: pointer;
     transition: 0.3s;
-    text-decoration: none;
-    font-weight: 400;
 }
 
-/* Hover & Active State */
 .tab-button:hover,
 .tab-button.active {
     text-decoration: underline;
-    background-color: rgba(173, 216, 230, 0.1); /* Optional subtle hover */
+    background-color: rgba(173, 216, 230, 0.1);
 }
 
-/* Content Section */
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    max-width: 600px;
-    margin: auto;
-    padding: 1.5em;
-    border: 1px solid lightblue; 
-    border-radius: 10px; 
+/* Main Content Area (50%) */
+.main-content {
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
-/* Heading Style */
-.medium-heading {
-    font-size: 2rem;
+.name-header {
+    font-size: 1.8rem;
     font-weight: bold;
     color: #9E1515;
+    margin-bottom: 1.5rem;
     text-align: center;
-    margin-bottom: 10px;
 }
 
-/* Home Page Layout */
 .home-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 3em 0;
-    max-width: 1000px;
-    margin: auto;
-}
-
-/* Home Image */
-.home-image {
-    flex: 1;
-    text-align: right;
-    padding-right: 1em; /* slightly reduced padding */
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .home-image img {
@@ -100,11 +83,9 @@ body {
     border-radius: 10px;
 }
 
-/* Home Text */
 .home-text {
     flex: 1;
-    text-align: left;
-    padding-left: 1em; /* slightly reduced padding */
+    min-width: 200px;
 }
 
 /* Footer */
@@ -112,42 +93,11 @@ footer {
     background-color: #EBEBEB;
     color: #942E2E;
     text-align: left;
-    padding: 1em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
-.research-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em; /* space between entries */
-    padding-top: 1em;
-}
-
-.research-entry {
-    line-height: 1.3; /* tighter but readable */
-    font-size: 0.95em;
-}
-
-.paper-title a {
-    font-weight: bold;
-    font-size: 1.05em;
-    color: blue;
-    text-decoration: none;
-}
-
-.paper-title a:hover {
-    text-decoration: underline;
-}
-
-.paper-authors,
-.paper-venue {
-    margin: 0.2em 0;
-    color: #333;
-}
-
-/* Kill the purple forever and set all links to light blue */
+/* Links */
 a, a:visited, a:hover, a:active {
     color: lightblue;
     text-decoration: none;
@@ -157,19 +107,22 @@ a:hover {
     text-decoration: underline;
 }
 
-
-/* Responsive Design */
+/* Responsive Layout */
 @media (max-width: 768px) {
-    .home-container {
+    .page-wrapper {
         flex-direction: column;
-        text-align: center;
     }
 
-    .home-image,
-    .home-text {
-        text-align: center;
-        padding: 1em 0;
+    .sidebar {
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .main-content {
+        width: 100%;
     }
 }
+
 
 
