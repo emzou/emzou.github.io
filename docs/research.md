@@ -3,7 +3,7 @@
 ## Education 
 `2021-2024`
 : Northwestern University BA in American Studies with Honors
-`2024 -`   
+`2024-`   
 : Stanford University PhD in Communication
 
 ## Presentations 
@@ -19,7 +19,7 @@ Research Computing Fellow Symposium (Stanford, CA, USA). Sept. 2025.
 * (Accepted) Pan, J. & Zou. E. Affect without Party: Affective Polarization in Anonymous Political Discussions. Text as Data Conference (Berkeley, CA). Oct 5. 2026
 * Zou, Emily. How do people use words without definitions? Stanford Data Science Conference
 (Stanford, CA, USA). Apr. 2025.
-* Zou, Emily & Pan, J. What the <mask> did you call me?": How people recognize unrecognized
+* Zou, Emily & Pan, J. What the "mask" did you call me?": How people recognize unrecognized
 words Women in Data Science Conference (Stanford, CA, USA). Mar. 2025.
 * Zou, Emily, Hwang, S., Shaw, A. & TeBlunthuis, N. (Don’t) Ignore Your Haters: Antagonis-
 tic Mutualism in Online Communities Lambert Conference on Human-Computer Interaction
