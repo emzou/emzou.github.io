@@ -1,0 +1,15 @@
+site_name: Emily Zou
+theme: 
+  name: terminal
+  features: 
+    - revision.date
+    - revision.history
+    - navigation.side.indexes 
+nav: 
+  - Home: index.md
+  - Research: research.md
+markdown_extensions:
+  - def_list
+plugins: 
+  - search
+  - git-revision-date-localized
