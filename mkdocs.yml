@@ -13,3 +13,5 @@ markdown_extensions:
 plugins: 
   - search
   - git-revision-date-localized
+extra_javascript:
+  - js/goatcounter.js
