@@ -34,3 +34,4 @@ I believe that clever and unusual research design can shed light on the prevaili
 ## Contact 
 * easyone at stanford dot edu 
 * [GitHub](https://github.com/emzou)
+* [CV](mats/ezou_cv.pdf)
